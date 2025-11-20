@@ -2,23 +2,23 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-yellow)
 
-## Recursive search greater than a value
+# Recursive search greater than a value
 
 Implementazione ricorsiva dell'algoritmo di ricerca sequenziale che ritorna un booleano
 se trova un valore maggiore del valore specificato.
 
-# Componenti della ricorsione
+## Componenti della ricorsione
 1. **Condizioni di terminazione:** `if(n <= 0)`
 2. **Istruzione di terminazione:** `return true`
 3. **Passo di avvicinamento:** `n-1`
 4. **Chiamata ricorsiva:** `if(maggiori_ele(v, n-1, ele) == false)`
 
-# Utilizzo
+## Utilizzo
 1. Crea in Code::Blocks un nuovo progetto.
 2. Copia il codice sorgente.
 3. Compila ed esegui.
 
-# Codice sorgente
+## Codice sorgente
 ```cpp
 #include <iostream>
 #include <ctime>
@@ -76,13 +76,13 @@ bool maggiori_ele(int v[], int n, int ele){
 
 ```
 
-# Output
+## Output
 ![Risultato della ricerca](immagini/cattura_1.PNG)
 
-# Autore
+## Autore
 Gabriele Henriet - [GitHub](https://github.com/Gabri-dev-C)
 
-# Licenza
+## Licenza
 MIT License
 
 ## Il mio approccio
