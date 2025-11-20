@@ -1,6 +1,7 @@
 ![C++](https://img.shields.io/badge/C++-Recursion-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-yellow)
+![Learning](https://img.shields.io/badge/Learning-C++-orange)
 
 # Recursive search greater than a value
 
