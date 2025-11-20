@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-yellow)
 
-## Maggiori di un valore
+## Recursive search greater than a value
 
 Implementazione ricorsiva dell'algoritmo di ricerca sequenziale che ritorna un booleano
 se trova un valore maggiore del valore specificato.
@@ -19,7 +19,6 @@ se trova un valore maggiore del valore specificato.
 3. Compila ed esegui.
 
 # Codice sorgente
-
 ```cpp
 #include <iostream>
 #include <ctime>
@@ -78,19 +77,15 @@ bool maggiori_ele(int v[], int n, int ele){
 ```
 
 # Output
-
 ![Risultato della ricerca](immagini/cattura_1.PNG)
 
 # Autore
-
 Gabriele Henriet - [GitHub](https://github.com/Gabri-dev-C)
 
 # Licenza
-
 MIT License
 
 ## Il mio approccio
-
 Ho sviluppato questa soluzione che utilizza una ricorsione "bottom-up", 
 controllando prima il risultato della ricorsione e poi l'elemento corrente.
 
